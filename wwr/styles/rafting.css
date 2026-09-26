@@ -1,7 +1,7 @@
 :root {
     --secondary-color: teal;
-    --accent1-color: gold;
-    --accent2-color: goldenrod;
+    --accent1-color: white;
+    --accent2-color: white;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -58,7 +58,6 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-
 }
 
 section {
@@ -72,11 +71,12 @@ section {
 }
 
 .socialmedia img {
-    width: 5%;
+    width: 100%;
 }
 
 .hero {
     position: relative;
+    background-color: var(--secondary-color);
 }
 
 .hero img {
@@ -110,7 +110,7 @@ h2 {
 
 .hero article {
     position: absolute;
-    bottom: 280px;
+    bottom: 320px;
     left: -16px;
     width: 100%;
     padding: 16px;
@@ -125,8 +125,22 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 3fr;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .five h2 {
     grid-column: 1/6;
+    justify-content: center;
+}
+
+figure {
+    width: 100px;
+    height: auto;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
 }
