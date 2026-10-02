@@ -63,7 +63,14 @@ nav a {
 section {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
+}
+
+section h2,
+p {
+    grid-column: 1/6;
+    text-align: center;
 }
 
 .socialmedia a {
@@ -75,8 +82,8 @@ section {
 }
 
 .hero {
-    position: relative;
     background-color: var(--secondary-color);
+    position: relative;
 }
 
 .hero img {
@@ -92,8 +99,8 @@ section {
 
 .hero h1 {
     position: absolute;
-    top: 20px;
-    width: 100%;
+    top: 0.0125%;
+    width: 840px;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
@@ -110,26 +117,14 @@ h2 {
 
 .hero article {
     position: absolute;
-    bottom: 450px;
-    left: -16px;
-    width: 100%;
+    top: 38%;
+    right: -2%;
+    width: 840px;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--secondary-color);
     color: white;
-}
-
-.five {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-}
-
-.five h2 {
-    grid-column: 1/6;
-    justify-content: center;
 }
 
 figure {
@@ -139,7 +134,11 @@ figure {
 
 footer {
     background-color: var(--secondary-color);
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+footer a {
+    width: 60px;
 }
