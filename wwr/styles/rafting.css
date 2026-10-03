@@ -30,6 +30,7 @@ header {
     align-items: center;
     background-color: darkblue;
     padding: 1rem;
+    margin-bottom: 10px;
 }
 
 header img {
@@ -42,7 +43,6 @@ p,
 section,
 article {
     margin: 16px;
-    padding: 8px;
 }
 
 nav {
@@ -66,6 +66,8 @@ section {
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     background-color: darkblue;
+    margin-top: 10px;
+
 }
 
 section h2,
@@ -85,12 +87,14 @@ p {
 .hero {
     background-color: var(--secondary-color);
     position: relative;
+    /* padding: 5px; */
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+    /* margin: 10px; */
 }
 
 .hero article img {
