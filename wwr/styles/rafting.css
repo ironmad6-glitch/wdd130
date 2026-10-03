@@ -1,5 +1,5 @@
 :root {
-    --secondary-color: teal;
+    --secondary-color: darkblue;
     --accent1-color: white;
     --accent2-color: white;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -65,6 +65,7 @@ section {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
+    background-color: darkblue;
 }
 
 section h2,
@@ -103,7 +104,7 @@ p {
     width: 840px;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     background-color: var(--secondary-color);
     color: white;
     /*white text - make sure there is enough contrast with the background-color*/
@@ -122,7 +123,7 @@ h2 {
     width: 840px;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     background-color: var(--secondary-color);
     color: white;
 }
@@ -132,11 +133,16 @@ figure {
     height: auto;
 }
 
+figcaption {
+    color: white;
+}
+
 footer {
-    background-color: var(--secondary-color);
+    background-color: darkblue;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    color: white;
 }
 
 footer a {
