@@ -125,8 +125,6 @@ button {
 iframe {
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 300;
-    height: 225;
     border: 0;
 }
 
