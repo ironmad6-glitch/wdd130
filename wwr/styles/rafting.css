@@ -173,7 +173,7 @@ p {
 .hero {
     background-color: var(--secondary-color);
     position: relative;
-    height: 57rem;
+    height: 35rem;
 }
 
 .hero img {
@@ -208,7 +208,7 @@ h2 {
 
 .hero article {
     position: absolute;
-    top: 38%;
+    top: 70%;
     right: -2%;
     width: 840px;
     padding: 16px;
@@ -219,6 +219,13 @@ h2 {
 }
 
 figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+figure img {
     width: 100px;
     height: auto;
 }
