@@ -24,6 +24,10 @@ footer {
     margin: 0 auto;
 }
 
+.contact_us {
+    height: 59rem;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -62,7 +66,7 @@ nav a {
 
 .contact {
     position: absolute;
-    top: 5.1%;
+    top: 10%;
     width: 840px;
     padding: 16px;
     text-align: center;
@@ -86,14 +90,16 @@ section {
 
 .reserve {
     position: absolute;
-    bottom: 25%;
-    height: 460px;
+    bottom: 0%;
+    height: 500px;
+    width: 840px;
+    /* right: 50%; */
     display: grid;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     background-color: darkblue;
-    margin-top: 10px;
+    margin: 0px;
 }
 
 .reserve h2 {
@@ -106,6 +112,11 @@ section {
 }
 
 .purpose {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
     display: flex;
     flex-direction: column;
 }
@@ -145,15 +156,15 @@ button:hover {
 
 .employee {
     position: absolute;
-    width: 809px;
+    width: 840px;
     height: 200px;
-    bottom: 0%;
+    bottom: -23.5%;
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     background-color: darkblue;
-    margin-top: 10px;
+    margin: 0px;
 }
 
 section h2,
