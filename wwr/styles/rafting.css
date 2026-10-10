@@ -64,6 +64,15 @@ nav a {
     font-weight: 700;
 }
 
+.art_a {
+    color: white;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 .contact {
     position: absolute;
     top: 10%;
@@ -126,6 +135,11 @@ section {
     padding: 0.5rem;
     text-decoration: none;
     font-size: larger;
+}
+
+.part2 img {
+    width: 150px;
+    height: auto;
 }
 
 .part3 {
